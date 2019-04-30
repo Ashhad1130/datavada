@@ -1,0 +1,96 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    background: #E8E8E8;
+    
+}
+
+.navbar-brand>img {
+  width: 60px;
+    height: 60px;
+}    
+.form-control{
+    width: 20%;
+    
+}
+.form-group {
+	display: flex;
+    
+}
+.image{
+    background: url(embrace.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   
+}
+.form{
+    margin-top: 200px;
+}
+.text{
+    display: flex;
+    position: absolute;
+    bottom: 0px;
+    color: red;
+    left: 470px;
+    padding: 15px;
+}
+input[type=text] {
+    width: 300px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+ }
+#sel1
+{
+    width: 300px;
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline: none;
+    margin-left: 45px;
+}
+
+
+.container{
+    padding: 90px;
+  
+}
+.column {
+    margin-left: 90px;
+    width: 25%;
+    padding: 5px;
+  }
+  
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+    
+  }
+.column image{
+    padding: 20px;
+}
+
+*[role="form"] {
+    max-width: 530px;
+    padding: 5px;
+    border-radius: 0.2em;
+    background: white;
+    
+}
+
+*[role="form"] h2 { 
+    font-family: 'Open Sans' , sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: #000000;
+    margin-top: 15%;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
